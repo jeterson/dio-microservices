@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ServiceDiscoveryApplication",
+            "request": "launch",
+            "mainClass": "src.main.java.com.jeterson.dio.servicediscovery.ServiceDiscoveryApplication",
+            "projectName": "service-discovery"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElasticSearchConfig",
+            "request": "launch",
+            "mainClass": "com.jeterson.dio.productcatalog.config.ElasticSearchConfig",
+            "projectName": "product-catalog"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductCatalogApplication<product-catalog>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.jeterson.dio.productcatalog.ProductCatalogApplication",
+            "projectName": "product-catalog",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceDiscoveryApplication<service-discovery>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.jeterson.dio.servicediscovery.ServiceDiscoveryApplication",
+            "projectName": "service-discovery",
+            "args": ""
+        }
+    ]
+}
